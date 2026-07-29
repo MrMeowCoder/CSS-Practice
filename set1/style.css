@@ -1,0 +1,56 @@
+#box {
+    font-family: cambria;
+    background-color : blue;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+#pera{
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+#one{
+    line-height: 40px;
+    font-size: 20px;
+    font-family: arial;
+    font-weight: 300;
+    text-decoration: none;
+    text-align: justify;
+    text-transform: capitalize;
+}
+
+.heading{
+    color: red;
+    text-align: end;
+}
+
+button{
+    font-family: cursive;
+    background-color: green;
+}
+
+#A1{
+    font-size: 40px;
+    font-family: arial;
+    text-decoration: underline;
+    font-weight: 100;
+    text-align: left;
+}
+
+#A2{
+    font-family: cursive;
+    text-decoration: overline;
+    font-weight: bold;
+    text-align: center;
+}
+
+#A3{
+    font-family: verdana;
+    text-decoration: line-through;
+    font-weight: 900;
+    text-align: right;
+}
+
