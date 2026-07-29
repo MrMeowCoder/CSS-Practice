@@ -7,9 +7,31 @@
     font-family: "times new roman";
 }
 
+#test{
+    height: 100px;
+    background-color: rgb(181, 180, 180);
+    width: 100px;
+}
+
+hr{
+    height: 10;
+}
+
 #outer{
     font-size: 25px;
+    background-color: orange;
+    width: 500px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: red;
+    
 }
 #inner{
     font-size: 10px;
+    background-color: green;
+    font-weight: lighter;
+    width: 480px;
+    border-width: 10px;
+    border-style: dashed;
+    
 }
