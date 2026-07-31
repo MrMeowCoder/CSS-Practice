@@ -1,3 +1,9 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
 h1{
     text-align: center;
     font-family: verdana;
@@ -7,55 +13,85 @@ h1{
 
 #navbar{
     height: 60px;
-    width: 1400px;
-    border-style: solid;
-    border-color: white;
-    border-width: 5px;
-    background-color: black;
-    margin-left: 40px;
+    background-color: #0f1111;
 }
 
-#amazonText{
-    color: orange;
-    margin-top: 0px;
+#logo{
+    text-decoration: none;
+    color: #F08804;
     font-size: 25px;
 }
 
-#red{
+a{
+    margin-right: 330px;
+    text-decoration: none;
+}
+
+#butt{
+    background-color: #f08804;
+}
+
+#input{
+    color: black;
+}
+
+/* Ancor Tags for RGBA*/
+#one1{
     height: 100px;
     width: 100px;
-    background-color: red;
-    border-radius: 50%;
-    margin: 15px 0px 0px 15px;
+    background-color: rgba(0, 255, 0, 0.1);
 }
 
-#yellow{
-height: 100px;
-    width: 100px;
-    background-color: yellow;
-    border-radius: 50%;
-    margin: 15px 0px 0px 15px;
-}
-
-#green{
+#two2{
     height: 100px;
     width: 100px;
-    background-color: green;
-    border-radius: 50%;
-    margin: 15px 0px 0px 15px;
+    background-color: rgba(0, 255, 0, 0.2);
 }
 
-#traffic{
-    height: 400px;
-    width: 130px;
-    background-color: black;
-    border-style: solid;
-    border-color: gray;
-    border-width: 6px;
+#three3{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(0, 255, 0, 0.3);
 }
 
-#amazon{
-    width: 1500px;
-    height: 600px;
-    background-color: gray;
+#four4{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(0, 255, 0, 0.4);
+}
+
+#five5{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(0, 255, 0, 0.5);
+}
+
+#six{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(0, 255, 0, 0.6);
+}
+
+#seven{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(0, 255, 0, 0.7);
+}
+
+#eight{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(0, 255, 0, 0.8);
+}
+
+#nine{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(0, 255, 0, 0.9);
+}
+
+#ten{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(0, 255, 0, 1);
 }
