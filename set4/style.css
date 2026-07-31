@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+    height: 60px;
+    background-color: #0f1111;
+
+    #account{
+        color: white;
+    }
+
+    #cart{
+        color: white;
+    }
+
+    #contact{
+        color: white;
+    }
+
+}
+
+#logo{
+    text-decoration: none;
+    color: #F08804;
+    font-size: 25px;
+}
+
+a{
+    margin-right: 330px;
+    text-decoration: none;
+}
+
+#butt{
+    background-color: #f08804;
+    color: white;
+}
+
+#input{
+    color: black;
+}
+
+.divs{
+    height: 100px;
+    width: 100px;
+    border: 3px solid black;
+    display: inline-block;
+    text-align: center;
+}
+
+.attach{
+    margin: 0;
+    padding: 0;
+}
+
+#div1{
+    background-color: rgba(255, 0, 0, 0.5);
+}
+#div2{
+    background-color: rgba( 0,255, 0, 0.5);
+}
+#div3{
+    background-color: rgba( 0, 0,255, 0.5);
+}
+
+main{
+    height: 700px;
+
+}
+
+footer{
+    background-color: #0f1111;
+    color: white;
+    #greeting {
+        font-size: 30px;
+    }
+
+    text-align: center;
+    height: 200px;
+    
+}
