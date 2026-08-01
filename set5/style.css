@@ -1,0 +1,12 @@
+#one{
+    height: 100px;
+    width: 200px;
+    color: white;
+    background-image: url("/image.png");
+    background-size: cover;
+
+    position: fixed;
+    right: 0px;
+
+    z-index: 1;
+}
