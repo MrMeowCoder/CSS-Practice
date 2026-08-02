@@ -4,7 +4,7 @@
 }
 
 body{
-    width: 390px;
+    width: 350px;
     height: 570px;
     margin: auto;
     display: block;
@@ -33,14 +33,16 @@ header{
 #clg_name{
     color: white;
     font-family:Impact;
+    font-size: 30px;
     text-align: center;
 }
 
 #contect{
     color: yellow;
     text-align: center;
-    font-size: 18px;
+    font-size: 15px;
     -webkit-text-stroke: 0.3px black;
+    font-family: verdana;
 }
 
 .upperbody{
@@ -97,13 +99,20 @@ header{
     margin: 20px 0px 20px 0px;
 }
 
+#doba, #fnamea, #contacta{
+    color: blue;
+}
+
+#admit-noa{
+    color:rgb(169, 34, 13);
+}
+
 .barcoded{
     display: block;
     width: 171px;
 }
 
 #barcode_no{
-    /* display: inline; */
     text-align: center;
 }
 
@@ -121,4 +130,5 @@ footer{
     font-family: arial;
     text-align: right;
     padding-right : 20px;
-}
+    height: 15px;
+}   
