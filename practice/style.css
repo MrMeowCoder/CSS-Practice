@@ -1,0 +1,49 @@
+.container{
+    background-color: lightblue;
+    border: 2px solid black;
+
+}
+
+#box1, #box2{
+    display: inline;
+}
+
+#box3, #box4{
+    display: block;
+}
+
+.test{
+    background:red;
+    width:300px;
+    height:100px;
+    display: inline-block;
+}
+
+#exp{
+    padding:40px;
+    background:orange;
+    display:inline-block;
+}
+
+.let{
+    background: yellow;
+    margin: 40px;
+    display:block;
+}
+
+/* .fruit{
+    visibility:hidden;
+} */
+
+#banana{
+    visibility: hidden;
+}
+
+.box{
+    height: 120px;
+    width: 120px;
+    background: rgba(0, 0, 0, 0.3);
+    border: 2px solid white;
+
+    display: inline-block;
+}
