@@ -1,0 +1,52 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    
+} */
+
+div{
+    display: inline-block;
+    font-family: arial;
+}
+
+#logo, #login{
+    font-size: 20px;
+    padding: 0px 20px 0px 20px;
+    border-radius: 100px;
+    border: 3px solid black;
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+#one, #two{
+    display: none;
+}
+
+#logo{
+    text-align: center;
+    background-color: red;
+}
+
+#login{
+    text-align: right;
+    background-color: green;
+}
+
+#home, #about, #contact{
+    padding: 0px 20px 0px 20px;
+    background-color: gray;
+    border: 2px solid black;
+    margin: -3px;
+    font-size: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+nav{
+    text-align: center  ;
+}
+a{
+    display: inline-block;
+    padding: 10px 20px;
+}
