@@ -49,3 +49,28 @@ body{
     background-color: slateblue;
     flex-grow: 4
 }
+
+@media(min-width: 600px){
+    h1{
+        color: red;
+        background-color: black;
+    }
+    #box1{
+        flex-grow: 2;
+    }
+}
+#test{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
+@media(min-width: 600px){
+    #test{
+        background-color: yellow;
+    }
+}
+@media(min-width: 200px) and (max-width: 400px){
+    #test{
+        background-color: pink;
+    }
+}
