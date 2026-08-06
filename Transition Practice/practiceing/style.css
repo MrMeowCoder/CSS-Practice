@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.p1{
+    display: inline;
+}
+
+.p2{
+    display: block;
+}
+
+.p3{
+    display: inline;    
+}
+
+.p4{
+    width: 150px;
+    height: 80px;
+    background-color: gray;
+    display: inline-block;
+}
