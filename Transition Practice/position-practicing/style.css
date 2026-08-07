@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.p1cont{
+    margin-top: 30px;
+    margin-left: 30px;
+    border: 2px solid black;
+    height: 100px;
+    width: 150px;
+}
+
+#box{
+    font-size: 40px;
+    position: relative;
+    top: 30px;
+    left: 50px;
+}
+
+
+/*practice question 2*/
+.p2cont{
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+}
+
+#box1, #box2{
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+    border: 2px dashed black;
+}
+
+#box1{
+    position: relative;
+    left: 100px;
+    top: 50px;
+}
+
+/*Problem 3*/
+
+.p3{
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+    margin-top: 30px;
+    margin-left: 30px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.pp3{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    position: absolute;
+    margin: 20px;
+    transition-property: all;
+    transition-duration: 0.07s;
+    background-color: red;
+
+}
+
+#srs1:hover{
+    background-color: rgb(248, 98, 98);
+}
+#srs2:hover{
+    background-color: rgb(248, 98, 98);
+}
+#srs3:hover{
+    background-color: rgb(248, 98, 98);
+}
+#srs4:hover{
+    background-color: rgb(248, 98, 98);
+}
+.pp3:active{
+    /* background-color: red; */
+    border-radius: 10px;
+}
+#srs1:active{
+    top: 10px;
+    left: 10px;
+    height: 80px;
+    width: 80px;
+}
+#srs2:active{
+    top: 10px;
+    right: 10px;
+    height: 80px;
+    width: 80px;
+}
+#srs3:active{
+    bottom: 10px;
+    left: 10px;
+    height: 80px;
+    width: 80px;
+}
+#srs4:active{
+    bottom: 10px;
+    right: 10px;
+    height: 80px;
+    width: 80px;
+}
+
+#srs1{
+    top: 0;
+    left: 0;
+}
+#srs2{
+    top: 0;
+    right: 0;
+}
+#srs3{
+    bottom: 0;
+    left: 0;
+}
+#srs4{
+    bottom: 0;
+    right: 0;
+}
+
