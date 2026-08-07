@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    height: 70px;
+    background-color:chocolate;
+    text-align: center;
+}
+
+.menu{
+    font-size: 25px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    height: 30px;
+    background-color: rgb(145, 87, 45);
+    width: 150px;
+    border: 2px solid black;
+    /* margin-top: 2.5px; */
+    border-radius: 50px;
+    margin: 15px 50px 0px 50px;
+}
+.menu:hover{
+    background-color: rgb(210, 141, 92);
+}
+.menu:active{
+    background-color:rgb(87, 52, 27)
+}
+
+/*Mini Challange 2*/
+
+.mini2{
+    height: 250px;
+    width: 230px;
+    background-color: rgb(236, 113, 25);
+    display: inline-block;
+    border: 2px solid black;
+    margin: 40px;
+}
+
+.mini2:hover{
+    background-color: rgb(210, 141, 92);
+}
+.mini2:active{
+    background-color:rgb(87, 52, 27)
+}
