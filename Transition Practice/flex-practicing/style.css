@@ -31,6 +31,16 @@ h1{
     color: white;
     background-color: red;
 }
+
+h3{
+    font-family: arial;
+    text-align: center;
+    /* text-decoration: underline; */
+    color: white;
+    background-color: green;
+    margin: 10px;
+}
+
 hr{
     margin-top: 50px;
     margin-bottom: 50px;
@@ -118,7 +128,6 @@ hr{
     width: 60px;
     border: 1px solid black;
     background-color: rgb(228, 156, 83);
-    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -131,12 +140,93 @@ hr{
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT523amAxGLO7fADhslQ7tkHH6ePZqQxscr2mWVWT-Ov3aMVJCe5p4oHuRJ&s=10");
     background-size: cover;
     border: none;
+    border-radius: 50%;
+
 }
 #p4menu{
     right: 10px;
     top: 10px;
-    background-image: url("https://www.shutterstock.com/image-vector/abstract-three-lines-logo-illustration-260nw-2220845053.jpg");
+    background-image: url("https://png.pngtree.com/png-clipart/20210312/original/pngtree-warranty-line-icon-with-horizontal-ribons-png-image_6075252.png");
     background-size: cover;
+    background-color: lightgreen;
 }
 
+/*Problem 6*/
+.p6{
+    height: 300px;
+    width: 800px;
+    border: 5px solid black;
+    margin-left: 30px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.p6boxes{
+    height: 100px;
+    width: 100px;
+    border: 2px dashed black;
+}
+
+.p7{
+    height: 300px;
+    width: 800px;
+    border: 5px solid black;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.p7boxes{
+    height: 100px;
+    width: 100px;
+    border: 2px dashed black;
+}
+
+/*Problem 8*/
+.p8{
+    margin-top: 30px;
+    height: 300px;
+    width: 800px;
+    border: 5px solid black;
+    margin-left: 30px;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+}
+
+.p8boxes{
+    height: 100px;
+    width: 100px;
+    border: 2px dashed black;
+}
+
+/*Problem 9*/
+.p9{
+    height: 300px;
+    width: 800px;
+    margin-left: 30px;
+    border: 5px solid black;
+    display: flex;
+    align-items: end;
+}
+
+.p9boxes{
+    border: 2px solid black;
+    width: 100px;
+    bottom: 0;
+
+}
+
+#p9b1{
+    height: 100px;
+}
+#p9b2{
+    height: 150px;
+}
+#p9b3{
+    height: 200px;
+}
