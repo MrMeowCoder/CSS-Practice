@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#banner{
+    position: relative;
+    align-items: center;
+    height: auto;
+    margin: auto;
+}
+
+#div{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+
+}
+
+#refresh{
+    background-color: blue;
+    border-radius: 20%;
+    height: 100px;
+    width: 100px;
+
+}
+
+#reficon{
+    height: 40px;
+    position: relative;
+    left: 0;
+}
+
+#form{
+    background-color: white;
+    border: solid;
+    height: 300px;
+    width: 400px;
+    position: relative;
+    left: 300px;
+}
+
+#welcome{
+    text-align: center;
+    background-color: #2c80c9;
+    padding-bottom: 10px;
+    color: white;
+    font-family: arial;
+    border-radius: 10px;
+}
+
+#heading{
+    display: inline-block;
+}
+
+#mobno{
+    width: 100px;
+    padding-left: 30px;
+}
+
+#mobnoin{
+    position: absolute;
+    left: 183px;
+    top: 30px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#phoneico{
+    background-color: #EEEEEE;
+    height: 21px;
+    width: 22px;
+    position: absolute;
+    left: 160px;
+    top: 30px;
+    border: 1.4px solid black;
+    border-start-start-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#otpno{
+    position: absolute;
+    left: 30px;
+    top: 60px;
+}
+
+#otpin{
+    position: absolute;
+    left: 183px;
+    top: 60px;
+    border-style: solid;
+    border-color: black;
+    border-start-start-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#otpic{
+    background-color: #EEEEEE;
+    height: 21px;
+    width: 22px;
+    position: absolute;
+    left: 160px;
+    top: 60px;
+
+    border-style: 1px solid;
+    border-color: black;
+    border-start-start-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#otpin{
+    position: absolute;
+    left: 183px;
+    top: 60px;
+
+}
