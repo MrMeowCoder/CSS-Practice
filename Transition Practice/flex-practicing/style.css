@@ -223,10 +223,64 @@ hr{
 
 #p9b1{
     height: 100px;
+    background-color: red;
 }
 #p9b2{
     height: 150px;
+    background-color: orange;
 }
 #p9b3{
     height: 200px;
+    background-color: green;
+}
+
+/*Problem 10*/
+.p10{
+    height: 300px;
+    width: 800px;
+    border: 5px solid black;
+    margin-left: 30px;
+    display: flex;
+
+}
+
+.p10boxes{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+}
+
+#p10b1{
+    height: 100px;
+    background-color: red;
+}
+#p10b2{
+    height: 120px;
+    background-color: orange;
+}
+#p10b3{
+    height: 210px;
+    background-color: green;
+}
+#p10b4{
+    height: 90px;
+    background-color: blue;
+}
+
+/*Problem 11*/
+
+.p11{
+    height: 300px;
+    width: 800px;
+    margin-left: 30px;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.p11boxes{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
 }
